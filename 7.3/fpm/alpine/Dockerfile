@@ -18,6 +18,8 @@ RUN usermod -u 1000 www-data && groupmod -g 1000 www-data
 
 RUN find / -group 82 -exec chgrp -h www-data {} \; && find / -user 82 -exec chown -h www-data {} \;
 
+COPY --from=composer:2.0 /usr/bin/composer /usr/bin/composer
+
 EXPOSE 9000
 
 CMD ["php-fpm"]
