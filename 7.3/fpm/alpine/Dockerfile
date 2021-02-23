@@ -2,8 +2,8 @@ FROM php:7.3-fpm-alpine3.9
 
 ENV CFLAGS="-I/usr/src/php"
 
-RUN apk --update --no-cache add shadow git libpng-dev jpeg-dev libxml2-dev libxslt-dev libzip-dev freetype-dev \
-  postgresql-dev libxml2-dev zlib-dev icu-dev gettext-dev autoconf yarn automake libtool file build-base nasm musl
+RUN apk --update --no-cache add shadow git libpng-dev jpeg-dev libxml2-dev libxslt-dev libzip-dev freetype-dev rsync \
+  postgresql-dev libxml2-dev zlib-dev icu-dev gettext-dev autoconf yarn automake libtool file build-base nasm musl openssh
 
 COPY php.ini-development /usr/local/etc/php/php.ini
 
