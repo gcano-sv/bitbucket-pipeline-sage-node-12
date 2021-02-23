@@ -1,8 +1,8 @@
 # Docker - PHP
 
-![Docker Pulls](https://img.shields.io/docker/pulls/mestre8d/php.svg)
-![Docker Automated](https://img.shields.io/docker/cloud/automated/mestre8d/php.svg)
-![Docker Build](https://img.shields.io/docker/cloud/build/mestre8d/php.svg)
+![Docker Pulls](https://img.shields.io/docker/pulls/mestre8d/docker-php.svg)
+![Docker Automated](https://img.shields.io/docker/cloud/automated/mestre8d/docker-php.svg)
+![Docker Build](https://img.shields.io/docker/cloud/build/mestre8d/docker-php.svg)
 
 Esse repositório armazena o código-fonte do arquivo de construção das imagens do PHP-FPM.
 
